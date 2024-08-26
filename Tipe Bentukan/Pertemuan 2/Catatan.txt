@@ -1,0 +1,43 @@
+type bentukan
+----------------
+algoritma :
+type nama type bentukan ( var 1 : tipe data 1
+			  .....
+			  var n : tipe data n
+			)
+
+titik T1 T2;
+
+bahasa c:
+typedef struct{ int x;
+		int y;
+	      } titik;
+
+void main()
+{
+ titik T1,T2;
+}
+
+type bentukan + array
+1. type bentukan array
+
+ Algoritma : 
+type mahasiswa ( nama : string
+		 NoBP : string
+		 alamat : string
+		 nilai : int
+	       )
+
+M : array [o..n] of mahasiswa
+
+  bahasa C :
+typedef struct  { char nama[20];
+		  char noBP[9];
+		  char alamat[30];
+		  int nilai;
+		} mahasiswa;
+void main()
+
+soal : 
+1. buat program yang meminta input sejumlah barang kemudian tampilkan
+total harga barang

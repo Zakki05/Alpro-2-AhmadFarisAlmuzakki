@@ -1,0 +1,63 @@
+Searching
+
+A. squential searching --> data tidak harus terurut
+ex : A[5] = { 2 5 3 4 1 } indeks 0-4
+nilai yang ingin dicari = 5
+
+langkah-langkah :
+1. set indeks mulai dari 0(i<--0)
+2. ketemu<--0 /// data tidak ditemukan
+3. masukkan nilai yang ingin dicari(x)
+4. selama (x!=A[i])dan i<n), maka lanjutkan,
+ketemu=0
+5. jika x=A[i] <-- data ditemukan
+i++
+6. jika x!=A[i] <-- data tidak ditemukan
+
+algoritma
+---------
+program seq.searching
+{}
+kamus
+   A:array of integer
+   i,n,x:Integer
+Algo
+   input(n)
+
+   for i<--0 to n-1 do
+	input(A[i])
+   end for i
+
+   for i<--0 to n-1 do
+	output(A[i])
+   end for i
+
+   i<--0
+   input(x)
+   
+Cara 1 :   	while(x!=A[i] and i<n)
+			i++
+   		end while
+
+		if(A[i]=x)
+			output('Ketemu')
+		else
+			Output('Tidak Ketemu')
+
+cara 2 : 	for i<--0 to n-1 do
+			if(x=A[i])
+				ketemu = 1
+		end for i
+			if (ketemu = 1)
+				output('Ketemu')
+			else
+				output('Tidak Ketemu')
+
+
+
+
+B. Binary searching --> data harus terurut
+(besar ke kecil /kecil ke besar)
+indeks awal
+indeks akhir
+indeks tengah ((ia+ik)/2

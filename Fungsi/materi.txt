@@ -1,0 +1,37 @@
+fungsi dan prosedur
+-----------------------
+
+program : 
+fungsi --> fungsi yang mempunyai nilai balik
+prosedure --> fungsi tanpa nilai balik
+
+format fungsi 
+
+tipedata fuzngsi namafungsi (variabel fungsi)
+{
+
+  return value;
+{ 
+
+  return 0;
+}
+
+algoritma persegi
+{l.s : F.s:
+kamus
+
+algo
+
+output ('Masukkan panjang=')
+input (p)
+output ('masukkan lebar=')
+
+
+end algo
+
+fungsi luas (panjang : integer, lebar : integer)
+kamus
+ L : integer
+algo
+ L --> panjang * lebar
+return L

@@ -1,0 +1,14 @@
+3. buat program yang meminta input ukuran dua buah array, nilai array A dan nilai 
+array B diinputkan oleh user, cek apakah 2 buah array tersebut identik (sama) atau tidak
+(8.30-8.45)
+langkah kerja 
+1. inputkan ukuran A
+2. inputkan nilai array A
+3. tampilkan array A
+4. inputkan ukuran array B
+5. input nilai array B
+6. tampilkan array B
+7. cek untuk jumlah baris dan kolom dari array A dan array B (jika sama ada kemungkinan
+   untuk identik, baru di cek nilai pada array A dan array B
+8. Tampilkan output (array A identik dengan array B) atau (array A tidak identik dengan
+   array B)

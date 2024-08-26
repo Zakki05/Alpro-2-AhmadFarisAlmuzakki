@@ -1,0 +1,75 @@
+Array 2 dimensi
+===============
+
+* cara deklarasi dari array
+@ array statis
+  int A[100];
+  2 dimensi
+  int A[100][100] --> jika ukurannya input user
+  int A[100][100][100] 
+  int B[3][5] --> array B 3 baris dan 5 kolom
+
+@ array dinamis
+  int* A;
+  2 dimensi
+  int* A[];
+  int* A[][];
+
+* cara input nilai di dalam array
+  a. int A[2][2] = {2,4,-1,10};
+  b. A[1][2]=-13; --> array A baris 1 kolom 2 dimasukkan nilai -13
+     A[0][0] = 2;
+     A[0][1] = 4;
+     A[1][0] = -1;
+     A[1][1] = 10;
+  c. kalau input ukuran array dari user
+     variabel m --> ukuran baris
+     variabel n --> ukuran kolom
+     
+     algoritma
+	for i <-- 0 to m-1 do
+	   for j <-- 0 to n-1 do
+		input (A[i][j])
+	   end for j
+	end for i
+
+    bahasa C
+	for (i=0;i<m;i++)
+	   {
+	        for j(i=0;i<n;i++)
+	        {
+		   scanf("%i",&A[i][j]);
+		}
+	   }	
+
+  d. inputannya secara random 
+	srand(time(NULL));
+	for(i=0;i<m;i++)
+	{
+		for (j=0;j<n;j++)
+		{
+		   A[i][j] = srand()/1000;
+		}
+	}
+
+* Cara output (menampilkan nilai di dalam array)
+  printf("%i",A[1][2]); --> menampilkan array A baris 1 kolom 2
+
+  b. for(i=0;i<m;i++)
+     {
+	for(j=0;j<n;j++)
+	{
+	  printf ("%i",A[i][j])
+	}
+       printf("\n")
+     }
+
+
+
+
+
+
+
+
+
+
